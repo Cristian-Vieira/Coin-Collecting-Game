@@ -1,0 +1,40 @@
+#canvas {
+    width: 63%;
+    border: 1px solid black;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 7px;
+    padding: 0.5em 1.0em;
+    font-size: 23px;
+    letter-spacing: 1px;
+    color: #000;
+    background-color: #fff;
+    border: 1;
+    border-radius: 8px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+
+}
+
+button.botao_em_foco {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(+5px);
+}
+
+#divcanvas {
+    display: flex;
+    justify-content: center;
+}
+#botoes{
+    text-align:center;
+}
