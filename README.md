@@ -13,8 +13,9 @@ Possible future  updates:
 
 view the project image:
 
-
-![preview image](./images/preview.png)
+<p align="center">
+  <img src="./images/preview.png" alt="preview image">
+</p>
 
 ---
 
@@ -28,8 +29,8 @@ Este é um projeto de laboratório com objetivo de aprimorar minhas habilidades,
 Desenvolvido por Cristian Vieira com conhecimentos adquiridos no curso "Game Development with JS" da Sololearn, disponível em [Sololearn.com](https://www.sololearn.com) 
 
 Futuras possiveis atualizações:
-- [] Gerar obstaculos para o coletor conforme as moedas forem coletadas, caso coletor colida com os objetos apresentar Game Over na tela
-- [] Botão para recomeçar o jogo
-- [] Criar um ranking de recorde de pontos das partidas anteriores
+- [ ] Gerar obstaculos para o coletor conforme as moedas forem coletadas, caso coletor colida com os objetos apresentar Game Over na tela
+- [ ] Botão para recomeçar o jogo
+- [ ] Criar um ranking de recorde de pontos das partidas anteriores
 
 
