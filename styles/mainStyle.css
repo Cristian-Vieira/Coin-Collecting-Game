@@ -1,6 +1,11 @@
+body{
+    background: grey;
+}
+
 #canvas {
     width: 63%;
     border: 1px solid black;
+    background-color: black;
 }
 
 h1 {

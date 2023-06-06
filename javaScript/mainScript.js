@@ -4,7 +4,8 @@ window.addEventListener("keydown", function (e) { // bloco que remove a função
     }
 }, false);
 
-window.onload = function () {   
+window.onload = function () {
+
 
     window.requestAnimationFrame(draw); // start no desenho 
     window.scrollTo(0, document.body.scrollHeight)// função para rolar a pagina até o final
@@ -66,32 +67,34 @@ window.onload = function () {
     });
 
     function draw() { // função principal de denho no AREA_DO_CANVAS
-
+        
         let timePassed = (Date.now() - t) / 1000; // variavel que rece o valor do tempo passado des do começo da execução
         t = Date.now();// redefine a variavel t
         let fps = Math.round(1 / timePassed);//variavel que calcula o fps arredondando o valor para o numero inteiro mais proximo
 
+        let img = new Image();
+        img.src = './images/saco.png';
+        let img2 = new Image();
+        img2.src = './images/moeda.png';
+
         DRAW_METHODS_2d.clearRect(0, 0, 600, 400); // limpa a tela/AREA_DO_CANVAS inteira
 
         DRAW_METHODS_2d.font = '15px Arial'; //indica o começo dobloco que exibe a contagem de FPS nas coordenadas especificdas pelo metodo fillText
-        DRAW_METHODS_2d.fillStyle = 'black';
+        DRAW_METHODS_2d.fillStyle = 'white';
         DRAW_METHODS_2d.fillText("FPS: " + fps, 10, 30);
 
         DRAW_METHODS_2d.beginPath();//indica o começo do bloco que exibe a contagem de moedas nas coordenadas especificdas pelo metodo fillText
         DRAW_METHODS_2d.font = '15px Arial';
-        DRAW_METHODS_2d.fillStyle = 'black';
+        DRAW_METHODS_2d.fillStyle = 'white';
         DRAW_METHODS_2d.fillText("Moedas: " + score, 100, 30);
 
-        DRAW_METHODS_2d.beginPath();//indica o começo do bloco de desenha o quadrado principal
-        DRAW_METHODS_2d.rect(x, y, 30, 30);
-        DRAW_METHODS_2d.fillStyle = "red";
-        DRAW_METHODS_2d.fill();
-       
-        
+        DRAW_METHODS_2d.beginPath();//indica o começo do bloco de desenha o saco
+        DRAW_METHODS_2d.drawImage(img, x-12, y-18, 50, 50)
+     
+
+
         DRAW_METHODS_2d.beginPath();//indica o começo do bloco que desenha a moeda
-        DRAW_METHODS_2d.arc(coinx, coiny, 7, 0, 6.3);
-        DRAW_METHODS_2d.fillStyle = "#e3c228";
-        DRAW_METHODS_2d.fill();
+        DRAW_METHODS_2d.drawImage(img2, coinx-12, coiny-12, 25, 25)
 
         if (dir == 1) { // caso a direção for 1 quadrado se move para a direita
             if (x + 30 < 600) {
