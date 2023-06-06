@@ -7,9 +7,9 @@ This is a lab project aimed at honing my skills, so there may be no updates
 Developed by Cristian Vieira with knowledge acquired in the course "Game Development with JS" by Sololearn, available at [Sololearn.com](https://www.sololearn.com) 
 
 Possible future  updates:
-- [] Generate obstacles for the collector as the coins are collected, in case the collector collides with the objects presents Game Over on the screen
-- [] Button to restart the game
-- [] Create a record ranking of points from previous matches
+-[] Generate obstacles for the collector as the coins are collected, in case the collector collides with the objects presents Game Over on the screen
+-[] Button to restart the game
+-[] Create a record ranking of points from previous matches
 
 view the project image:
 
