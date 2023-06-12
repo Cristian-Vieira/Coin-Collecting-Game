@@ -1,5 +1,5 @@
 # Coin-Collecting-Game
- **My first Web Game using HTML-CSS-JS**
+ **My first Web Game using HTML-CSS-JS**, this is a singleplayer game 
 
 Currently this project is in beta phase in its version 1.0,
 This is a lab project aimed at honing my skills, so there may be no updates
@@ -7,7 +7,7 @@ This is a lab project aimed at honing my skills, so there may be no updates
 Developed by Cristian Vieira with knowledge acquired in the course "Game Development with JS" by Sololearn, available at [Sololearn.com](https://www.sololearn.com) 
 
 ### User Guide:
-**Objective**: The game is to collect as many coins as possible
+**Objective**: The object of the game is to collect as many coins as possible.
 
 **How to play**: To move the collector towards the coins, use the arrow keys **( ↑↓ ← → )** to define the direction the collector should follow
 
@@ -26,7 +26,7 @@ view the project image:
 
 ## Descrição em PT-BR:
 
-**Meu primeiro Web Game usando HTML-CSS-JS**
+**Meu primeiro Web Game usando HTML-CSS-JS**, este é um jogo singleplayer
 
 Atualmente este projeto está em fase beta em sua versão 1.0,
 Este é um projeto de laboratório com objetivo de aprimorar minhas habilidades, então pode não haver atualizações
@@ -34,7 +34,7 @@ Este é um projeto de laboratório com objetivo de aprimorar minhas habilidades,
 Desenvolvido por Cristian Vieira com conhecimentos adquiridos no curso "Game Development with JS" da Sololearn, disponível em [Sololearn.com](https://www.sololearn.com) 
 
 ### Manual do usuário:
-**Objetivo**: O jogo consiste em coletar o maior número de moedas possível
+**Objetivo**: O jogo consiste em coletar o maior número de moedas possível 
 
 **Como jogar**: Para mover o coletor em direção as moedas use as setas do teclado **( ↑↓ ← → )** para definir a direção que o coletor deve seguir
 
