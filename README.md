@@ -4,7 +4,7 @@
 Currently this project is in beta phase in its version 1.0,
 This is a lab project aimed at honing my skills, so there may be no updates
 
-Developed by Cristian Vieira with knowledge acquired in the course "Game Development with JS" by Sololearn, available at [Sololearn.com](https://www.sololearn.com) 
+Developed by Cristian Vieira with knowledge acquired in the course "Game Development with JS" by Sololearn, available at [Sololearn.com](https://www.sololearn.com/learning/1175) 
 
 ### User Guide:
 **Objective**: The object of the game is to collect as many coins as possible.
